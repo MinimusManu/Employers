@@ -1,0 +1,134 @@
+body{
+    width:70%;
+    margin: 0 auto;
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.925);
+}
+
+.header img {
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:3px rgb(0, 0, 0) dotted;
+    padding:5px;
+}
+
+.header h1 {
+    position: absolute;
+    top:17%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color: rgb(228, 228, 228);
+    border:2px solid black;
+    padding-left:20px;
+    padding-right:20px;
+    font-style: italic;
+}
+
+.header h3 {
+    position: absolute;
+    top:21%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-style: italic;
+}
+
+.header h2 {
+    position: absolute;
+    top:26%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:2px solid black;
+    padding:10px;
+}
+
+.leftsection{
+    width:50%;
+    float:left;
+    text-align:right;
+
+    position: absolute;
+    top:60%;
+    left:0%;
+    transform:translate(0%, -50%);
+    border-right:0.1px solid black;
+}
+
+.lsmallsection{
+padding-bottom:15px;
+}
+
+.rsmallsection{
+    padding-bottom:15px;
+    }
+
+.rightsection{
+    text-align:left;
+    width:50%;
+    float:left;
+    position: absolute;
+    top:60%;
+    left:0%;
+    transform:translate(100%, -50%);
+    border-left:0.01px solid black;
+}
+
+.lone{
+    width:70%;
+    float:left;
+    margin-right:1%;
+    text-align:right;
+    margin-left:5%;
+}
+
+
+.ltwo{
+    width:20%;
+    float:left;
+    margin-right:2%;
+}
+
+
+
+
+
+.rone{
+    width:75%;
+    float:left;
+    margin-left:5%;
+}
+
+.rtwo{
+    width:20%;
+    float:left;
+}
+
+.contacts{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.contact{
+    position: absolute;
+    top:95%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.contact h1{
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.contact p{
+padding-left:100px;
+padding-right:100px;
+float:left;
+}
